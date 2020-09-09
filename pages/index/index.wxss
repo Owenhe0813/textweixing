@@ -1,0 +1,70 @@
+/**index.wxss**/
+.container .swiper,
+.container .swiper image{
+  width: 750rpx;
+  height: 320rpx;
+}
+
+.title{
+  width: 750rpx;
+  text-align: left;
+  padding: 20rpx 28rpx 30rpx;
+  color: #3C3C3C;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.item{}
+
+.item .image-container{
+  position: relative;
+  width: 750rpx;
+}
+
+.image-container .tag{
+  width: 136rpx;
+  height: 58rpx;
+  position: absolute;
+  left: 30rpx;
+  top: -8rpx;
+  /* background: url(/pages/static/images/status_active.png) center center / cover; */
+}
+
+.image-container .item-image{
+  width: 750rpx;
+  height: 320rpx;
+}
+.bottom {
+  height: 180rpx;
+  width: 750rpx;
+  padding: 16rpx 30rpx 20rpx;
+}
+.exercise{
+  display:flex;
+  width: 100%;
+}
+
+.exercise .name{
+  width: 590rpx;
+  font-size: 30rpx;
+  white-space: initial;
+  letter-spacing: 0.42rpx;
+  line-height: 42rpx;
+  color: #3C3C3C;
+  flex-grow: 0;
+}
+.exercise .label{
+  color: #FE6249;
+  font-size: 30rpx;
+  letter-spacing: 0.14rpx;
+  line-height: 42rpx;
+  text-align: right;
+}
+
+.detail {
+  margin-top: 30rpx;
+  font-size: 22rpx;
+  color: #B4B4B4;
+  letter-spacing: 0.1;
+  line-height: 26rpx ;
+}

@@ -1,0 +1,15 @@
+<!--pages/helloworld/helloword.wxml-->
+<view class="topView">
+微信的标签名称  
+<text decode>&nbsp;</text>
+<text user-select>这是行内的元素text</text>
+<swiper autoplay interval="1000" indicator-dots indicator-color="rgba(255, 255, 255, .3)" indicator-active-color="#fff">
+  <swiper-item><image src="/static/uploads/slide_1.jpg"></image></swiper-item>
+  <swiper-item><image src="/static/uploads/slide_2.jpg"></image></swiper-item>
+  <swiper-item><image src="/static/uploads/slide_3.jpg"></image></swiper-item>
+  <swiper-item><image src="/static/uploads/slide_4.jpg"></image></swiper-item>
+  <swiper-item><image src="/static/uploads/slide_5.jpg"></image></swiper-item>
+</swiper>
+<navigator open-type="switchTab" url="/pages/index/index">跳转到主页</navigator>
+
+</view>

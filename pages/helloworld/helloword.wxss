@@ -1,0 +1,7 @@
+/* pages/helloworld/helloword.wxss */
+page .topView{
+  width: 375rpx;
+  height: 375rpx;
+  background-color: aquamarine;
+  margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/helloworld/helloword"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTitleText": "游乐园",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#777",
+    "backgroundColor": "#bfc",
+    "list": [
+      {
+        "pagePath" : "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icons/face-active.png",
+        "selectedIconPath": "/icons/face-default.png"
+      },
+      {
+        "pagePath": "pages/helloworld/helloword",
+        "text": "hello",
+        "iconPath": "/icons/home-active.png",
+        "selectedIconPath": "/icons/home-default.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  }
+}

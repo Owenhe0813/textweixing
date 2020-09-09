@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#abc",
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "hello页面",
+  "backgroundColor": "#000",
+  "navigationBarTextStyle": "white"
+}
